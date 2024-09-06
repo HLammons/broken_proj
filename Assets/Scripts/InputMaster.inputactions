@@ -1,0 +1,138 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Robot",
+            "id": "a2c4d7aa-2ac9-423c-90d4-a4a0351c37a2",
+            "actions": [
+                {
+                    "name": "Driving",
+                    "type": "Button",
+                    "id": "1f88e36e-c23e-4436-8682-88121c0acb59",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Steering",
+                    "type": "Button",
+                    "id": "0da74df7-a5bc-41af-bdc0-7604e7ed9aab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PanTilt",
+                    "type": "Button",
+                    "id": "b4f27e9b-9de0-4823-bcfc-abb3249f0548",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "02c7e85c-bfe4-45db-b44f-4883899270f1",
+                    "path": "<XInputController>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "Driving",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f54d6e7-5744-4c89-b82a-f5f05e2bcd2f",
+                    "path": "<XInputController>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "Driving",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58c6396a-36aa-4494-91cb-cdef180c5862",
+                    "path": "<XInputController>/rightStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "Steering",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a52374d3-abf9-48f4-b20e-812630801b8a",
+                    "path": "<XInputController>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "Steering",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5f76597-c6ec-42dc-9836-3edd8f234be9",
+                    "path": "<XInputController>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "PanTilt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f450ddfc-b9f6-4f90-be20-90f2a4a5abe2",
+                    "path": "<XInputController>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "PanTilt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "069d1360-8f31-481b-b166-e101f1e517d6",
+                    "path": "<XInputController>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "PanTilt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac337f35-8414-4d93-812c-c32e6d9dcd65",
+                    "path": "<XInputController>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "PanTilt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "XBox Control Scheme",
+            "bindingGroup": "XBox Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
